@@ -54,13 +54,12 @@ pinout:
   uio[6]: ""
   uio[7]: ""
 
-  # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
-  ua[0]: "Vinp - non-inverting input"
-  ua[1]: "Vinm - inverting input"
-  ua[2]: "Voutp - positive output"
-  ua[3]: "Voutm - negative output"
-  ua[4]: "Vp - PMOS cascode bias (0.3 V)"
-  ua[5]: "Vn - class-AB bias (1.5 V)"
-
+ pinout:
+  ua[0]: "Vp - PMOS cascode bias input, 0.3 V"
+  ua[1]: "Voutm - negative output"
+  ua[2]: "Vn - class-AB bias input, 1.5 V"
+  ua[3]: "Voutp - positive output"
+  ua[4]: "Vinm - inverting input"
+  ua[5]: "Vinp - non-inverting input"
 # Do not change!
 yaml_version: 6
