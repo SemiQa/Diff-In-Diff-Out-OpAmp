@@ -1,3 +1,7 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
 MACRO tt_um_semiqa_diff_opamp
   CLASS BLOCK ;
   FOREIGN tt_um_semiqa_diff_opamp ;
@@ -84,8 +88,6 @@ MACRO tt_um_semiqa_diff_opamp
   PIN ua[6]
     DIRECTION INOUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 394.699982 ;
-    ANTENNADIFFAREA 1276.911377 ;
     PORT
       LAYER met4 ;
         RECT 35.890 0.000 36.790 1.000 ;
@@ -94,8 +96,6 @@ MACRO tt_um_semiqa_diff_opamp
   PIN ua[7]
     DIRECTION INOUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 394.699982 ;
-    ANTENNADIFFAREA 1276.911377 ;
     PORT
       LAYER met4 ;
         RECT 16.570 0.000 17.470 1.000 ;
@@ -561,7 +561,6 @@ MACRO tt_um_semiqa_diff_opamp
         RECT 114.470 0.000 132.090 1.400 ;
         RECT 133.790 0.000 151.410 1.400 ;
         RECT 153.110 0.000 311.000 1.400 ;
-        RECT 16.520 -0.010 17.490 0.000 ;
   END
 END tt_um_semiqa_diff_opamp
 END LIBRARY
