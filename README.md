@@ -1,6 +1,6 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg)
 
-##Fully-Differential Class-AB Folded-Cascode Operational Amplifier
+### Fully-Differential Class-AB Folded-Cascode Operational Amplifier
 
 A full-custom analog Tiny Tapeout submission: a fully-differential operational
 amplifier with a folded-cascode core, Class-AB output stage and on-chip
