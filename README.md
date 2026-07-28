@@ -15,7 +15,7 @@ parasitic-extracted simulation; nothing has been measured on silicon yet.**
 - Analog pins: 6
 - Top module: `tt_um_semiqa_diff_opamp`
 - Full documentation: [`docs/info.md`](docs/info.md)
-![](../docs/Detailed Schematic.png)
+![](./docs/Detailed%20Schematic.png)
 ## Key specifications
 
 Post-layout (R+C extracted), typical corner, 27 °C, `CL` = 1 pF.
