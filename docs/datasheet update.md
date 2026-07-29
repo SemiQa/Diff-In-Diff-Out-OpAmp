@@ -46,7 +46,7 @@ Bias generator: XR5 + XM60 (diode-connected) ──► Vbiasn1
 
 **Figure 0. Complete Schematic**
 
-![Complete Schematic](figures/schematic.png){width=200%}
+![Complete Schematic](docs/Detailed%20Schematic.png)
 
 ## 4 Pin Configuration
 
